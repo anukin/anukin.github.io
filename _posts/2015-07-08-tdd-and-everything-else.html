@@ -1,0 +1,42 @@
+---
+layout: post
+title: Life universe TDD and everything else
+date: 2015-07-08 16:22:08.000000000 +05:30
+categories:
+- Software Design
+- TDD
+tags:
+- OOPS
+- TDD
+status: publish
+type: post
+published: true
+meta:
+  _wp_old_slug: hello-world
+author:
+  login: anukin2611
+  email: anukin2611@gmail.com
+  display_name: anukin2611
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>[caption id="attachment_11" align="alignleft" width="246"]<a href="https://codingdaimyo.files.wordpress.com/2015/07/ronin_by_mycks-d5yviyz.jpg"><img class="size-medium wp-image-11" src="assets/ronin_by_mycks-d5yviyz.jpg?w=246" alt="the wandering ronin" width="246" height="300" /></a> the wandering ronin[/caption]</p>
+<p>He was nothing but a ronin, the one without master, the one with the wind and the water.He had just been out of the great Indian education system and realised that it provided nothing but a paper which you could as well use for cleaning tables with.He wandered from dojo to dojo but was never satisfied nor was he ever interested in arts they had offered.This all changed the day he came to the new dojo.</p>
+<p>It was nothing fancy a small dojo of 3 masters, 4 apprentices and other students, but teaching and preaching a new model of programming and delivery, something he was not familiar with, something he was alien to.He sure knew about design and sure as hell knew about object oriented design.He is aware of the oneness of design with the implementation.</p>
+<p>[caption id="attachment_14" align="alignright" width="300"]<a href="https://codingdaimyo.files.wordpress.com/2015/07/3956.jpg"><img class="size-medium wp-image-14" src="assets/3956.jpg?w=300" alt="An old pic of the gurus together.The school still exists albeit inside all major operating systems." width="300" height="195" /></a> An old pic of the gurus together.The school still exists albeit inside all major operating systems.[/caption]</p>
+<p>He was well trained in the popular weapons/tools of the old school of Kerninghan and Ritchie.<br />
+The master didn't care for what he knew nor did he care about what weapons he could use.He was interested in how well could he perform.He was taken to the katas.He was given a simple problem design the game of life make it without any flaws.</p>
+<p>[caption id="attachment_13" align="alignleft" width="201"]<a href="https://codingdaimyo.files.wordpress.com/2015/07/220px-yukihiro_matsumoto.jpg"><img class="size-medium wp-image-13" src="assets/220px-yukihiro_matsumoto.jpg?w=201" alt="Matz : He might look young but i assure you the pic is photoshopped and he is a real maester" width="201" height="300" /></a> Matz : He might look young but i assure you the pic is photoshopped and he is a real maester[/caption]</p>
+<p>The student was proud in his weapons, but the weapon of choice was something made from the fires of Mount Fuji by the well known Grand Maester Matz.It was called Ruby.He had seen it before, he had used it too but was not well versed in it.<br />
+He used the weapon in similar manner to the weapons he was accustomed to.He fought the master in the ways of <i>Procedural Programming.</i>The master was smart, it was not long before that student tasted blood, his own blood.He had to be a learner again.<br />
+First thing the master specified was <strong>Test Driven Development </strong>or <strong>TDD </strong>in short.TDD is a programming technique where in the programmer defines contract for the behaviour of a certain entity or <strong>Class </strong>as the practiced ones in Object Oriented Design called it.A class is nothing but a set of entities which shared same property and behaved in a similar way when encountered with a certain external impulse.An example would be a book.All books have a cover and bunch of papers inside these covers.But these covers maybe of hardcover or softcover and inside the pages maybe of sugarcane, or of unicorn hairs, but they will all respond to <em>flipping of page </em>with a new page different from the old one in what is written it but not in composition.</p>
+<p>Now coming back to <strong>TDD, </strong>the contract is for defining how the behaviour worked, in this case flipping of page.You had to model the behaviour through a <strong>Behaviour Driven Development</strong> or <strong>BDD</strong><strong> </strong>framework <strong>Rspec</strong>(more on that later).TDD follows a typical cycle better known to the world as <strong>Red Green Refactor</strong>. In the red phase you had to fail the contract that is the tool is never to be used or in this case there is no book.The next phase was of course where the contract had to be maintained a book was to be there with pages(no not the cover as we are just maintaining the contract for <em>flipping of page </em>).Now the contract will be satisfied with presence of a book with pages which when flipped will return another page this is called a green stage.</p>
+<p>[caption id="attachment_6" align="aligncenter" width="343"]<a href="https://codingdaimyo.files.wordpress.com/2015/07/red-green-refactor-commit.png"><img class=" wp-image-6" src="assets/red-green-refactor-commit.png?w=300" alt="TDD cycle" width="343" height="343" /></a> TDD cycle[/caption]</p>
+<p>The student was impatient he was much more interested in boundary cases(like the contract breach at the end of the book), a classic case of <em>procedural programming <strong>hang over</strong></em>.The master served him with a freshly cut unripe papaya and asked him to eat it.The student accepted, but he could not eat it, like many unripe things it was unbearable.The master explained just like the natural process is to look at papaya and realise it is ripe when the color changes from green to orange, it is natural for the code to be derived from simpler contracts to more complex.Like at first a papaya is nothing but a flower the contracts are different at this stage, then it becomes an embryo, contracts here are build on top of those at embryo stage, the next stage is an unripe papaya, contracts here might be presence of seeds, a well developed outer skin etc.When a contract is specified the previous ones are also present.</p>
+<blockquote><p><strong><em>You derive the design not design the design.</em></strong></p></blockquote>
+<p>So accordingly the edge cases can be tested once the base cases has been done with in contract, and then the <strong>green </strong>stage and then go for contracts for boundary cases.</p>
+<blockquote><p>Let the baby take the baby steps and then walk and then fall.Fall is inevitable but you do not have to prevent it before the walk.</p></blockquote>
+<p>Student was enlightened.Master said refactoring is something that we will be doing when all of us are one with the concept of red and green.He added commit instead of refactor, so the new idiom of course was <em><strong>Red green commit</strong></em>.The katas now on wards will focus on this idiom.The master had only one thing to say as parting words.</p>
+<blockquote><p>Do not try and code the design. That's impossible. Instead...only try to realize the truth.There's no code without spec ever.</p></blockquote>
