@@ -8,7 +8,7 @@ title: Your class should be a limousine
 </figure>
 <p>The master was reminiscing about the days he spent learning <em>The Pragmatic Programmer</em>.There was even more wisdom to be learned from the book, now more than ever.The apprentices were given hardcover copies of the book to posses the wisdom he now possessed.With young age, blunders come fast.Apprentices were gulping it down like it was some pulp fiction novel.Master was agonised over it.Just then an apprentice came for some advice.<p>
 <p>He had implemented a code that could possibly fit the description of a spaghetti code(no offense to FSM ofcourse).There were dependencies which were not easy to percieve or understand.The master just concentrated on one specific set of issues.<p>
-
+{% highlight ruby %}
     class Ninja
       def initialize(dressing, katana, shuriken, shoes, height, weight)
         @katana = katana
@@ -64,7 +64,7 @@ title: Your class should be a limousine
         end
       end
     end
-
+{% endhighlight %}
 
 There were a lot of hidden dependancies in the code.If the `Weapon` class changed then the `Ninja` class also had to change.A matter of irreversibility, mused the master.Master asked the student to come with him to shrine.They took a normal oxen cart which had wooden wheels.At each of the gutters the apprentice feared the worst.When they reached the shrine, apprentice was left breathless.Master and apprentice came back from the shrine.Master had ordered a limousine this time.While there were still gutters, he did not face any issues.
 <figure>
