@@ -7,8 +7,8 @@ title: Your class should be a limousine
   <figcaption style="color:#aaa">No we are not talking about class limousine, but yes it is good.</figcaption>
 </figure>
 <p>The master was reminiscing about the days he spent learning <em>The Pragmatic Programmer</em>.There was even more wisdom to be learned from the book, now more than ever.The apprentices were given hardcover copies of the book to posses the wisdom he now possessed.With young age, blunders come fast.Apprentices were gulping it down like it was some pulp fiction novel.Master was agonised over it.Just then an apprentice came for some advice.<p>
-<p>He had implemented a code that could possibly fit the description of a spaghetti code(no offense to FSM ofcourse).There were dependencies which were not easy to percieve or understand.The master just concentrated on one specific set of issues.<p>
-  
+<p>He had implemented a code that could possibly fit the description of a spaghetti code(no offense to FSM ofcourse).There were dependencies which were not easy to percieve or understand.The master just concentrated on one specific set of issues.</p>
+
 {% highlight ruby %}
     class Ninja
       def initialize(dressing, katana, shuriken, shoes, height, weight)
